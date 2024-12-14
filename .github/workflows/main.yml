@@ -27,8 +27,8 @@ jobs:
 
     - name: Commit and push changes (if needed)
       run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "github-actions@github.com"
+        git config --global user.name "kellyhaps"
+        git config --global user.email "kellyhaps@gmail.com"
         git add StephsOrders.json
         git commit -m "Update orders data"
         git push
