@@ -57,5 +57,5 @@ else:
 	print("No orders found or API response error")
 
 # Save total list
-#with open('StephsOrders.json', 'w') as f:
-#    json.dump(order_list, f)
+with open('StephsOrders.json', 'w') as f:
+	json.dump(order_list, f)
