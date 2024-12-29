@@ -3,7 +3,6 @@ import requests
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-from zoneinfo import ZoneInfo
 
 #title
 st.title("StephCookies Sales Dashboard :cookie:")
